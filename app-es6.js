@@ -60,4 +60,4 @@ var hobby1 = myHobbies[0], hobby2 = myHobbies[1];
 console.log(hobby1, hobby2);
 var userData2 = { username: 'Max', ageMy: 27 };
 var myNameSimo = userData2.username, myAgeSimo = userData2.ageMy;
-console.log(myName, myAgeSimo);
+console.log(myNameSimo, myAgeSimo);
