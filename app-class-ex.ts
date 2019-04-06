@@ -25,22 +25,16 @@ console.log(car.acceleration);
 class BaseObject {
     width = 0;
     length = 0;
-    constructor(width: number, length: number) {
-        this.width = width;
-        this.length = length
-    }
 }
 
 class Rectangle extends BaseObject {
-    constructor(width: number, length: number) {
-        super(width, length);
-    }
-
     calcSize() {
         return this.width * this.length;
     }
 }
-const rectangle = new Rectangle(5, 2)
+const rectangle = new Rectangle();
+rectangle.width = 5;
+rectangle.length = 10;
 console.log(rectangle.calcSize());
 
 // Exercise 3 - Make sure to compile to ES5 (set the target in tsconfig.json)

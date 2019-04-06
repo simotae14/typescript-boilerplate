@@ -34,10 +34,10 @@ let myColor: Color = Color.Green;
 console.log(myColor); // 100
 
 // any
-let car: any = 'BMW';
-console.log(car);
-car = { brand: 'BMW', series: 3 };
-console.log(car);
+let carNew: any = 'BMW';
+console.log(carNew);
+carNew = { brand: 'BMW', series: 3 };
+console.log(carNew);
 
 // functions
 function returnMyName(): string {
@@ -66,9 +66,9 @@ myMultiply = multiply;
 console.log(myMultiply(5, 2));
 
 // Objects
-let userData: { name: string, age: number } = {
+let userData: { name: string, ageNew: number } = {
     name: "Max",
-    age: 27
+    ageNew: 27
 };
 // userData = {
 //     a: "Hello",

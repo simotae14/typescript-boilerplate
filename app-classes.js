@@ -12,29 +12,29 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var Person = /** @class */ (function () {
-    function Person(name, username) {
+var PersonEx = /** @class */ (function () {
+    function PersonEx(name, username) {
         this.username = username;
         this.type = "cool";
         this.age = 27;
         this.name = name;
     }
     // method
-    Person.prototype.printAge = function () {
+    PersonEx.prototype.printAge = function () {
         console.log(this.age);
         this.setType("Old guy");
     };
     // set type
-    Person.prototype.setType = function (type) {
+    PersonEx.prototype.setType = function (type) {
         this.type = type;
         console.log(this.type);
     };
-    return Person;
+    return PersonEx;
 }());
-var person = new Person('Max', 'max');
-console.log(person.name, person.username);
-person.printAge();
-//person.setType('Cool guy');
+var personNew = new PersonEx('Max', 'max');
+console.log(personNew.name, personNew.username);
+personNew.printAge();
+//personNew.setType('Cool guy');
 // Inheritance
 var Simone = /** @class */ (function (_super) {
     __extends(Simone, _super);
@@ -45,7 +45,7 @@ var Simone = /** @class */ (function (_super) {
         return _this;
     }
     return Simone;
-}(Person));
+}(PersonEx));
 var simone = new Simone("simone");
 console.log(simone);
 // Getters & Setters

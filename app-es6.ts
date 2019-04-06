@@ -68,9 +68,9 @@ const myHobbies = ["Cooking", "Sports"];
 const [hobby1, hobby2] = myHobbies;
 console.log(hobby1, hobby2);
 
-const userData2 = { username: 'Max', age: 27 };
+const userData2 = { username: 'Max', ageMy: 27 };
 const {
     username: myNameSimo,
-    age: myAgeSimo
+    ageMy: myAgeSimo
 } = userData2;
 console.log(myName, myAgeSimo);

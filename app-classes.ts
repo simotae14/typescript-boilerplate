@@ -1,4 +1,4 @@
-class Person {
+class PersonEx {
     name: string;
     private type: string = "cool";
     protected age: number = 27;
@@ -19,14 +19,14 @@ class Person {
     }
 }
 
-const person = new Person('Max', 'max');
-console.log(person.name, person.username);
-person.printAge();
-//person.setType('Cool guy');
+const personNew = new PersonEx('Max', 'max');
+console.log(personNew.name, personNew.username);
+personNew.printAge();
+//personNew.setType('Cool guy');
 
 
 // Inheritance
-class Simone extends Person {
+class Simone extends PersonEx {
     name = "Simone";
 
     constructor(username: string) {

@@ -30,10 +30,10 @@ var Color;
 var myColor = Color.Green;
 console.log(myColor); // 100
 // any
-var car = 'BMW';
-console.log(car);
-car = { brand: 'BMW', series: 3 };
-console.log(car);
+var carNew = 'BMW';
+console.log(carNew);
+carNew = { brand: 'BMW', series: 3 };
+console.log(carNew);
 // functions
 function returnMyName() {
     return myName;
@@ -58,7 +58,7 @@ console.log(myMultiply(5, 2));
 // Objects
 var userData = {
     name: "Max",
-    age: 27
+    ageNew: 27
 };
 // userData = {
 //     a: "Hello",
