@@ -73,4 +73,4 @@ const {
     username: myNameSimo,
     ageMy: myAgeSimo
 } = userData2;
-console.log(myName, myAgeSimo);
+console.log(myNameSimo, myAgeSimo);
