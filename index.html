@@ -5,19 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>TypeScript & Third-Party Libraries</title>
-        <script src="node_modules/systemjs/dist/system.js"></script>
     </head>
     <body>
         <div id="app">Change it with jQuery!</div>
-        <script>
-            SystemJS.config({
-                map: {
-                    "jQuery": "node_modules/jquery/dist/jquery.min.js"
-                },
-                baseURL: '/',
-                defaultJSExtension: true
-            });
-            SystemJS.import('use-jquery.js');
-        </script>
+        <script src="./dist/bundle.js"></script>
     </body>
 </html>

@@ -1,2 +1,2 @@
-import "jQuery";
-$("#app").css({ "background-color": "blue" });
+import $ = require("jquery");
+$("#app").css({ "background-color": "red" });

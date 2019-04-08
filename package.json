@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "build": "gulp"
+    "build": "webpack -d --watch",
+    "build:prod": "webpack -p"
   },
   "author": "Simone Taeggi",
   "license": "ISC",
@@ -15,7 +16,10 @@
     "gulp": "3.9.1",
     "gulp-typescript": "^5.0.1",
     "lite-server": "^2.4.0",
-    "typescript": "^3.4.2"
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
     "jquery": "^3.3.1",
