@@ -1,2 +1,2 @@
 import "jQuery";
-$("#app").css({ "background-color": "green" });
+$("#app").css({ "background-color": "blue" });
